@@ -1,4 +1,4 @@
-0#! /bin/bash
+#! /bin/bash
 declare -A matrix
 echo "Enter number of rows : "
 read r
