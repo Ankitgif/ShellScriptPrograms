@@ -1,10 +1,11 @@
 #! /bin/bash
 echo "Enter username : "
 read username
-pname=Ankit
+echo "Enter propername : "
+read propername
 if [ ${#username} -ge 3 ]
 then
-echo Hello $pname , How are you
+echo Hello $propername , How are you
 else
 echo "Invalid username"
 fi
